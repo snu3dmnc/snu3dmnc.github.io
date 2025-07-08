@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SNU Computer Vision Lab | SNU 3D Modeling and Navigation Center</title>
+    <link>http://localhost:1313/author/snu-computer-vision-lab/</link>
+      <atom:link href="http://localhost:1313/author/snu-computer-vision-lab/index.xml" rel="self" type="application/rss+xml" />
+    <description>SNU Computer Vision Lab</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>SNU Computer Vision Lab</title>
+      <link>http://localhost:1313/author/snu-computer-vision-lab/</link>
+    </image>
+    
+    <item>
+      <title>Few-shot Reconstruction of SNU Souvenirs</title>
+      <link>http://localhost:1313/post/24-08-09-snugift3d/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-08-09-snugift3d/</guid>
+      <description>&lt;p&gt;Development of cutting-edge deep learning technology for 3D reconstruction using only a few-shot of images.&lt;/p&gt;
+&lt;p&gt;Reconstructing high-quality 3D models from sparse visual data is a long-standing challenge in computer vision. In our latest work, we tackle this problem using a few-shot learning approach built on the recently popularized 3D Gaussian Splatting framework. Our goal was to develop an effective pipeline that could reconstruct faithful 3D representations of real-world objects — such as SNU souvenirs — from just a small set of input images.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;test&#34; srcset=&#34;
+               /post/24-08-09-snugift3d/method_hu_9390debdc2a98d81.webp 400w,
+               /post/24-08-09-snugift3d/method_hu_3f62fbce8c679c62.webp 760w,
+               /post/24-08-09-snugift3d/method_hu_3d197c5b7d6e81eb.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-08-09-snugift3d/method_hu_9390debdc2a98d81.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;354&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We propose three main improvements over the baseline:&lt;br&gt;
+1.	Depth Loss: Using “Depth Anything” and Pearson correlation-based depth consistency improved SSIM while maintaining competitive perceptual quality (LPIPS).&lt;br&gt;
+2.	Normal Loss: Leveraging normals from StableNormal and enforcing self-consistency and unseen-view consistency enhanced fine geometric details and visual fidelity.&lt;br&gt;
+3.	Geometric Loss: A novel combination of flattening and expansion losses guided primitive shapes for more compact and accurate reconstructions.&lt;/p&gt;
+&lt;p&gt;Together, these additions improved the PSNR from 19.28 (baseline) to 20.02, and LPIPS from 0.448 to 0.371 under few-shot settings&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cv.snu.ac.kr/research/snu_demo_2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Live Demo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

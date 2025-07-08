@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datasets | SNU 3D Modeling and Navigation Center</title>
+    <link>http://localhost:1313/datasets/</link>
+      <atom:link href="http://localhost:1313/datasets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Datasets</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Datasets</title>
+      <link>http://localhost:1313/datasets/</link>
+    </image>
+    
+    <item>
+      <title>Indoor Datasets</title>
+      <link>http://localhost:1313/datasets/indoor3d/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/datasets/indoor3d/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1YXX3QZUGUeOL_rjC24_f65PC6gNsTqAR?usp=share_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Capture with omnidirectional camera attached to a selfie stick&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Faster &amp;amp; easier capture than conventional camera (~1 min.)&lt;/li&gt;
+&lt;li&gt;5760 x 2880 resolution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estimate camera poses&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evenly sample frames&lt;/li&gt;
+&lt;li&gt;Convert equirectangular images to cubemap images&lt;/li&gt;
+&lt;li&gt;Run SfM with perspective images
+(Worked better than run SfM directly on 360 images)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LiDAR Robot Driving Datasets</title>
+      <link>http://localhost:1313/datasets/navlidar/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/datasets/navlidar/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rvlsnu.synology.me:1402/sharing/qJreP3Hl2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Datasets includes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ouster 32ch LiDAR&lt;/li&gt;
+&lt;li&gt;4 Ultra-wide Fisheye Camera&lt;/li&gt;
+&lt;li&gt;Front-facing Intel D435&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

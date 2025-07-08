@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SNU 3D Modeling and Navigation Center</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>SNU 3D Modeling and Navigation Center</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_fa9e5ca97be2fb0a.png</url>
+      <title>SNU 3D Modeling and Navigation Center</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title>3D Reconstruction of SNU’s Haedong Building</title>
+      <link>http://localhost:1313/post/24-10-02-outdoor3d/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-10-02-outdoor3d/</guid>
+      <description>&lt;p&gt;High-Precision Outdoor 3D Color Mapping Using LiDAR and Camera Sensor Capture Systems.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/cvgxg5MweRQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;This project was carried out to introduce the Haedong Advanced Engineering Hall, a new building at Seoul National University. This project page was created to capture the exterior of the Haedong Advanced Engineering Hall and visualize the reconstructed results. We generated a LiDAR prior map using a LiDAR SLAM-based method and estimated the camera poses through our point cloud-based Structure-from-Motion (SfM) technique. By accurately determining the camera positions, we reconstructed large-scale outdoor scenes in block units. This process allowed us to produce a high-quality, colorized point cloud and achieve high-fidelity rendered videos using 3D Gaussian Splatting. You can explore more detailed results on the webpage below.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;test&#34; srcset=&#34;
+               /post/24-10-02-outdoor3d/sensor_hu_a56cfa655583f35e.webp 400w,
+               /post/24-10-02-outdoor3d/sensor_hu_fe179cd0c3d45a19.webp 760w,
+               /post/24-10-02-outdoor3d/sensor_hu_6f815e6b24569ec9.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-10-02-outdoor3d/sensor_hu_a56cfa655583f35e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;362&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Subsequently, we built a system capable of processing both LiDAR and camera data for 3D neural modeling based on 3D Gaussian Splatting. To handle large-scale sensor data efficiently, we introduced a distributed processing technique called Trajectory Chunking.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://zang09.github.io/snu_haedong_3d/static/images/parking_lot.gif&#34; alt=&#34;test&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;test&#34; srcset=&#34;
+               /post/24-10-02-outdoor3d/results_hu_3b747cdc8b9ac776.webp 400w,
+               /post/24-10-02-outdoor3d/results_hu_449732acee89e154.webp 760w,
+               /post/24-10-02-outdoor3d/results_hu_2549e2cb5ba1465d.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-10-02-outdoor3d/results_hu_3b747cdc8b9ac776.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;427&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Indoor Datasets</title>
+      <link>http://localhost:1313/datasets/indoor3d/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/datasets/indoor3d/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://drive.google.com/drive/folders/1YXX3QZUGUeOL_rjC24_f65PC6gNsTqAR?usp=share_link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Capture with omnidirectional camera attached to a selfie stick&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Faster &amp;amp; easier capture than conventional camera (~1 min.)&lt;/li&gt;
+&lt;li&gt;5760 x 2880 resolution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estimate camera poses&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evenly sample frames&lt;/li&gt;
+&lt;li&gt;Convert equirectangular images to cubemap images&lt;/li&gt;
+&lt;li&gt;Run SfM with perspective images
+(Worked better than run SfM directly on 360 images)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LiDAR Robot Driving Datasets</title>
+      <link>http://localhost:1313/datasets/navlidar/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/datasets/navlidar/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://rvlsnu.synology.me:1402/sharing/qJreP3Hl2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Datasets includes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ouster 32ch LiDAR&lt;/li&gt;
+&lt;li&gt;4 Ultra-wide Fisheye Camera&lt;/li&gt;
+&lt;li&gt;Front-facing Intel D435&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LiDAR Robot Mapping</title>
+      <link>http://localhost:1313/post/24-10-04-timevariantmapping/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-10-04-timevariantmapping/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Development of SLAM Technology for Robots Adaptable to Temporal Changes”.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Single-session Static Mapping (Dynamic Object removal)&lt;/li&gt;
+&lt;li&gt;Multi-session Static Mapping (Lifelong Mapping)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;text&#34; srcset=&#34;
+               /post/24-10-04-timevariantmapping/robot_hu_30e5ea89c6bf22e5.webp 400w,
+               /post/24-10-04-timevariantmapping/robot_hu_386e8c5ec345703e.webp 760w,
+               /post/24-10-04-timevariantmapping/robot_hu_c26a1651517f6c16.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-10-04-timevariantmapping/robot_hu_30e5ea89c6bf22e5.webp&#34;
+               width=&#34;745&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;LiDAR rig was mounted on a quadruped robot, and the same environment was mapped at appropriate time intervals. Subsequently, a mapping system was developed that can recognize dynamic and static objects and reflect changes in the environment.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;text&#34; srcset=&#34;
+               /post/24-10-04-timevariantmapping/results_hu_adf7884b09922b53.webp 400w,
+               /post/24-10-04-timevariantmapping/results_hu_3215971960f1a68a.webp 760w,
+               /post/24-10-04-timevariantmapping/results_hu_cf780beea7b83d0c.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-10-04-timevariantmapping/results_hu_adf7884b09922b53.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;358&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Few-shot Reconstruction of SNU Souvenirs</title>
+      <link>http://localhost:1313/post/24-08-09-snugift3d/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-08-09-snugift3d/</guid>
+      <description>&lt;p&gt;Development of cutting-edge deep learning technology for 3D reconstruction using only a few-shot of images.&lt;/p&gt;
+&lt;p&gt;Reconstructing high-quality 3D models from sparse visual data is a long-standing challenge in computer vision. In our latest work, we tackle this problem using a few-shot learning approach built on the recently popularized 3D Gaussian Splatting framework. Our goal was to develop an effective pipeline that could reconstruct faithful 3D representations of real-world objects — such as SNU souvenirs — from just a small set of input images.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;test&#34; srcset=&#34;
+               /post/24-08-09-snugift3d/method_hu_9390debdc2a98d81.webp 400w,
+               /post/24-08-09-snugift3d/method_hu_3f62fbce8c679c62.webp 760w,
+               /post/24-08-09-snugift3d/method_hu_3d197c5b7d6e81eb.webp 1200w&#34;
+               src=&#34;http://localhost:1313/post/24-08-09-snugift3d/method_hu_9390debdc2a98d81.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;354&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;We propose three main improvements over the baseline:&lt;br&gt;
+1.	Depth Loss: Using “Depth Anything” and Pearson correlation-based depth consistency improved SSIM while maintaining competitive perceptual quality (LPIPS).&lt;br&gt;
+2.	Normal Loss: Leveraging normals from StableNormal and enforcing self-consistency and unseen-view consistency enhanced fine geometric details and visual fidelity.&lt;br&gt;
+3.	Geometric Loss: A novel combination of flattening and expansion losses guided primitive shapes for more compact and accurate reconstructions.&lt;/p&gt;
+&lt;p&gt;Together, these additions improved the PSNR from 19.28 (baseline) to 20.02, and LPIPS from 0.448 to 0.371 under few-shot settings&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cv.snu.ac.kr/research/snu_demo_2024/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Live Demo&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Capturing &amp; Free-viewpoint rendering of Haedong plaza</title>
+      <link>http://localhost:1313/post/24-08-09-indoor3d/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-08-09-indoor3d/</guid>
+      <description>&lt;p&gt;Development of cutting-edge deep learning technology for 3D reconstruction using only a few-shot of images.&lt;/p&gt;
+&lt;p&gt;Capturing complex architectural environments for immersive visualization is traditionally labor-intensive and computationally expensive. In this project, we present a fast, accessible, and high-quality 3D capture pipeline for Haedong Plaza, leveraging omnidirectional video and neural rendering techniques to enable realistic free-viewpoint navigation.&lt;/p&gt;
+&lt;p&gt;We employed NeRF-based rendering techniques to reconstruct and visualize the 3D scene:
+•	Proposal network sampling from Mip-NeRF 360 for efficient training in unbounded scenes.
+•	Pose refinement for accurate camera localization.
+•	Multi-resolution hash grids from Instant-NGP for memory-efficient representation&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/Wa9vlX4ABng?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;The final output is a smooth and immersive rendering of Haedong Plaza from arbitrary viewpoints. The visualization faithfully captures complex geometry and lighting, demonstrating the pipeline’s viability for large indoor architectural spaces&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LiDAR SLAM based Outdoor-indoor robot navigation</title>
+      <link>http://localhost:1313/post/24-12-02-robotnav/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/24-12-02-robotnav/</guid>
+      <description>&lt;p&gt;Development of LiDAR-Based SLAM Technology for Autonomous Navigation of Indoor and Outdoor Robots.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/1Vr-OgT40Kg?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;As part of the development of an indoor-outdoor autonomous robot, we built a LiDAR-based mapping system capable of capturing both indoor and outdoor environments, and conducted tests on the robot’s autonomous navigation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>http://localhost:1313/people/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tour</title>
+      <link>http://localhost:1313/tour/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tour/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>http://localhost:1313/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>http://localhost:1313/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>http://localhost:1313/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
