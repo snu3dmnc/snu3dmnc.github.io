@@ -43,16 +43,6 @@
   </url><url>
     <loc>http://localhost:1313/kr/</loc>
     <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko-kr"
-                href="http://localhost:1313/kr/"
-                />
   </url><url>
     <loc>http://localhost:1313/kr/tags/</loc>
     <changefreq>weekly</changefreq>

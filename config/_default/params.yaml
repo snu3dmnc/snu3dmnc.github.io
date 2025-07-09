@@ -18,8 +18,8 @@ marketing:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Seoul National University 3D Modeling and Navigation Center.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -41,6 +41,10 @@ header:
     show_search: true
     highlight_active_link: false
 
+
+
+
+
 # Site footer
 
 footer:
@@ -49,7 +53,7 @@ footer:
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization

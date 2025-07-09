@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2022-10-24
+date: 2025-07-10
 type: landing
 
 sections:
@@ -24,7 +24,7 @@ sections:
       title: Research
       subtitle:
       text:
-      count: 5
+      count: 6
       filters:
         author: ''
         category: ''
@@ -36,7 +36,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: '2'
+      columns: '1'
   
   # - block: markdown
   #   content:

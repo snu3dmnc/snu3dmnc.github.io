@@ -6,6 +6,7 @@
 title: SNU 3D Modeling and Navigation Center # Website name
 baseURL: 'https://snu3dmncgithub.io/' # Website URL
 
+
 ############################
 ## LANGUAGE
 ############################
@@ -61,3 +62,4 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
